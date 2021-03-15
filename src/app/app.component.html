@@ -2,28 +2,16 @@
   <app-navi></app-navi>
   <hr>
   <div class="row">
-      <div class="col-md-2">
-        <app-brand></app-brand>
-        <br>
-        <app-color></app-color>
-      </div>
-      <div class="col-md-1">
-      </div>
-      <div class="col-md-9">
-        <h4>Araçlar</h4>
-        <hr>
-        <app-car></app-car>
-        <br>
-        <h4>Müşteriler</h4>
-        <hr>
-        <app-customer></app-customer>
-        <br>
-        <h4>Kiralanmış Araçlar</h4>
-        <hr>
-        <app-rental></app-rental>
-
-      </div>
+    <div class="col-md-2">
+      <app-brand></app-brand>
+      <br>
+      <app-color></app-color>
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
   </div>
-  <router-outlet></router-outlet>
-</div>
 
+</div>
